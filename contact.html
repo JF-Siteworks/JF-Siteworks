@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Me Now</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-area">
+        <img src="images/logo.png" alt="Logo" class="logo" />
+        <span class="company-name">JF Siteworks</span>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <p class="contact-slogan-wrapper">
+      Whether you need a website, a sharp digital poster, or clean edits for
+      your videos,
+      <br />
+      I'm here to help. Contact me now and let me bring you ideas to life - no
+      hassle, just clean work.
+    </p>
+
+    <div class="form-wrapper">
+      <form action="contact.php" method="POST">
+        <p class="contact">Let's Work Together, Contact Me Now</p>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+
+    <footer class="site-footer">
+      <p>© 2025 JF Siteworks™. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
